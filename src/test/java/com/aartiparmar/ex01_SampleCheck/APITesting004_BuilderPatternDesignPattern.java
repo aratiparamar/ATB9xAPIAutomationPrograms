@@ -1,20 +1,23 @@
 package com.aartiparmar.ex01_SampleCheck;
 
-public class APITesting003_NoJavaDesignPattern {
-    public void step1(){
+public class APITesting004_BuilderPatternDesignPattern {
+    public APITesting004_BuilderPatternDesignPattern step1() {
         System.out.println("Step 1");
+        return this;
     }
-    public void step2(){
+
+    public APITesting004_BuilderPatternDesignPattern step2() {
         System.out.println("Step 2");
+        return this;
     }
-    public void step3(String param1){
+
+    public APITesting004_BuilderPatternDesignPattern step3(String param1) {
         System.out.println("Step 3");
+        return this;
     }
 
     public static void main(String[] args) {
-        APITesting003_NoJavaDesignPattern np=new APITesting003_NoJavaDesignPattern();
-        np.step1();
-        np.step2();
-        np.step3("aarti");
+        APITesting004_BuilderPatternDesignPattern np = new APITesting004_BuilderPatternDesignPattern();
+        np.step1().step2().step3("Aarti");
     }
 }
