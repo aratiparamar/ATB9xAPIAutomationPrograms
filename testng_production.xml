@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/Aarti Parmar/IdeaProjects/ATB9xAPIAutomationPrograms">
         <groups>
             <run>
-                <include name="reg"></include>
+                <include name="prod"></include>
             </run>
         </groups>
 
